@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.display {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 1.5em;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.b1 {
+    padding-right: 18px;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-bottom: 20px;  
+}
+
+.b2 {
+    padding-right: 52px;
+    padding-top: 20px;
+    padding-left: 52px;
+    padding-bottom: 20px;
+}
+
+.b3 {
+    padding-right: 23px;
+    padding-top: 20px;
+    padding-left: 23px;
+    padding-bottom: 20px;
+}
+
+.b4 {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
+
+.btn:active {
+    background-color: #E2E2E2;
+}
+
+.operator {
+    background-color: #FF9C00;
+    color: black;
+}
+
+.operator:active {
+    background-color: #E38B00;
+}
+
+.clear {
+    background-color: #FF4237;
+    color: black;
+}
+
+.clear:active {
+    background-color: #E6352A;
+}
+
+.equal {
+    background-color: #32C657;
+    color: black;
+}
+
+.equal:active {
+    background-color: #2CA847;
+}
+
+table{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+th, td {
+    padding: 2px;
+}

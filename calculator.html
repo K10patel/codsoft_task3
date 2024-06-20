@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <table align="center" bgcolor="grey">
+        <tr>
+            <th colspan="4"><div class="display" id="display"></div></th>
+        </tr>
+        <tr>
+            <th><button class="btn b1 clear" id="clear">C</button></th>
+            <th colspan="2"></th>
+            <th><button class="btn b4 operator" data-value="/">/</button></th>
+        </tr>
+        <tr>
+            <td><button class="btn" data-value="7">7</button></td>
+            <td><button class="btn" data-value="8">8</button></td>
+            <td><button class="btn" data-value="9">9</button></td>
+            <td><button class="btn operator" data-value="*">x</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" data-value="4">4</button></td>
+            <td><button class="btn" data-value="5">5</button></td>
+            <td><button class="btn" data-value="6">6</button></td>
+            <td><button class="btn b3 operator" data-value="-">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" data-value="1">1</button></td>
+            <td><button class="btn" data-value="2">2</button></td>
+            <td><button class="btn" data-value="3">3</button></td>
+            <td><button class="btn operator" data-value="+">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="btn" data-value="0">0</button></td>
+            <td><button class="btn b3" data-value=".">.</button></td>
+            <td colspan="2"><button class="btn b2 equal" id="equal">=</button></td>
+        </tr>
+    </table>
+    <script src="javascript.js"></script>
+</body>    
+</html>
+
